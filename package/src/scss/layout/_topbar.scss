@@ -1,0 +1,56 @@
+.v-app-bar {
+    .v-toolbar__content {
+        padding: 0 24px 0 10px;
+        display: flex;
+        gap:8px;
+
+        >.v-btn:first-child {
+            margin-inline-start: 0;
+        }
+
+        .v-btn {
+            &.custom-hover-primary{
+                .iconify{
+                    color: rgba(var(--v-theme-textPrimary), 0.7) !important;
+                }
+                &:hover{
+                    background-color: rgb(var(--v-theme-lightprimary)) ;
+                    .iconify{
+                        color: rgb(var(--v-theme-primary)) !important;
+                    }   
+                   
+                }
+                
+            }
+            
+        }
+    }
+}
+
+.mobile_popup{
+    .v-btn {
+        &.custom-hover-primary{
+            .iconify{
+                color: rgba(var(--v-theme-textPrimary), 0.7) !important;
+            }
+        }
+    }
+}
+
+.custom-text-primary {
+    &:hover {
+        .custom-title {
+            color: rgb(var(--v-theme-primary)) !important;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1279px) {
+    .mini-sidebar {
+        .v-navigation-drawer.v-navigation-drawer--left {
+            width: 260px !important;
+        }
+    }
+}

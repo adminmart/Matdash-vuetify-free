@@ -1,0 +1,141 @@
+// Dashboard 1
+.welcome-img{
+    max-height: 200px;
+    height: 200px;
+}
+
+.labels-chart .label-1 {
+    position: absolute;
+    width: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -3px
+}
+
+.labels-chart .label-2 {
+    position: absolute;
+    right: 0;
+    top: 50%
+}
+
+.labels-chart .label-3 {
+    position: absolute;
+    width: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    text-align: center
+}
+
+.labels-chart .label-4 {
+    position: absolute;
+    top: 50%
+}
+
+// Revenue Products
+.revenue-products {
+    .v-slide-group__content {
+        gap: 24px;
+    }
+
+    .v-btn {
+        background-color: rgba(var(--v-theme-grey100), 0.8);
+        padding: 12px 24px;
+    }
+
+    .v-slide-group-item--active.v-tab--selected {
+        background-color: rgba(var(--v-theme-primary));
+
+        .v-btn__content {
+            color: #fff;
+
+            .v-tab__slider {
+                display: none;
+            }
+        }
+    }
+}
+
+// Dashboard 2
+.bg-primary-gt {
+    background: linear-gradient(261.23deg, rgba(var(--v-theme-primary)) .42%, #5a52ff 100%) !important;
+
+    img {
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+.profit-card {
+    .badge-custom-dark {
+        background-color: rgba(41, 52, 61, .2) !important;
+        padding: 5px 12px;
+        width: fit-content;
+    }
+}
+
+.rounded-bars {
+    .apexcharts-bar-series.apexcharts-plot-series .apexcharts-series path {
+        clip-path: inset(0 0 5% 0 round 20px);
+    }
+}
+
+.rounded-pill-bars .apexcharts-rangebar-area {
+    clip-path: inset(9% 0% 11% round 24px);
+}
+
+// Annual Profit
+.annual-list {
+    .list {
+        &:last-child {
+            border-bottom: 0 !important;
+            padding-bottom: 0 !important;
+        }
+    }
+}
+
+.daily-activities {
+    .line {
+        width: 1px;
+        height: 50px;
+        margin-top: -6px;
+    }
+}
+
+//Dashboard 3
+.primary-gradient {
+    background: linear-gradient(180deg,rgba(var(--v-theme-primary),.12) 0,rgba(var(--v-theme-primary),.03) 100%)
+}
+
+.warning-gradient {
+    background: linear-gradient(180deg,rgba(var(--v-theme-warning),.12) 0,rgba(var(--v-theme-warning),.03) 100%)
+}
+
+.secondary-gradient {
+    background: linear-gradient(180deg,rgba(var(--v-theme-secondary),.12) 0,rgba(var(--v-theme-secondary),.03) 100%)
+}
+
+.error-gradient {
+    background: linear-gradient(180deg,rgba(var(--v-theme-error),.12) 0,rgba(var(--v-theme-error),.03) 100%)
+}
+
+.success-gradient {
+    background: linear-gradient(180deg,rgba(var(--v-theme-success),.12) 0,rgba(var(--v-theme-success),.03) 100%)
+}
+
+
+.icon-grid-width{
+    width: 20% !important;
+    @media screen and (max-width:1190px) {
+        width: 33% !important;
+    }
+}   
+
+@media screen and (max-width:1368px){
+    .welcome-img {
+        max-height: 150px;
+    }
+}

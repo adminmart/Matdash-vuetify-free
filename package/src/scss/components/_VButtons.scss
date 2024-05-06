@@ -1,0 +1,23 @@
+//
+// global
+
+.v-btn-group .v-btn {
+    height: inherit !important;
+}
+
+.v-btn-group {
+    border-color: rgb(var(--v-theme-borderColor)) !important;
+}
+
+.v-btn--size-large{
+    font-size: 14px;
+}
+
+.btn-white{
+    background-color: rgb(var(--v-theme-surface)) !important;
+    padding:10px 15px;
+    &:hover{
+        background-color: rgb(var(--v-theme-primary)) !important; 
+        color: #fff !important;
+    }
+}

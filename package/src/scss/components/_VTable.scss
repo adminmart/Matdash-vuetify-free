@@ -1,0 +1,78 @@
+.v-table .v-table__wrapper>table>tbody>tr:not(:last-child)>td,
+.v-table .v-table__wrapper>table>tbody>tr:not(:last-child)>th,
+.v-table .v-table__wrapper>table>thead>tr:last-child>th {
+    border-bottom: thin solid rgba(var(--v-theme-borderColor), 0.6) !important;
+}
+
+.v-table {
+    &.dark-table {
+        background-color: rgb(var(--v-theme-grey200));
+    }
+}
+
+.v-table {
+    .v-table__wrapper {
+        table {
+            tbody {
+                tr {
+
+                    td {
+                        padding: 14px 24px !important;
+
+                        &:first-child {
+                            padding-left: 0 ;
+                        }
+                    }
+                }
+            }
+
+            thead {
+                tr {
+                    th {
+                        padding: 14px 24px !important;
+
+                        &:first-child {
+                            padding-left: 0 ;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.v-table{
+    &.revenue-table{
+        .v-table__wrapper {
+            table {
+                tbody {
+                    tr {
+    
+                        td {
+                            padding: 14px 24px !important;
+    
+                            &:first-child {
+                                padding-left: 0 !important;
+                            }
+                        }
+                    }
+                }
+    
+                thead {
+                    tr {
+                        th {
+                            padding: 14px 24px !important;
+    
+                            &:first-child {
+                                padding-left: 0 !important;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+} 
+
