@@ -58,7 +58,7 @@ const sDrawer = ref(true);
             </div>
             <div>
                 <!-- Upgrade button -->
-                <v-btn class="mr-2 bg-primary" href="" target="_blank">Download Free</v-btn>
+                <v-btn class="mr-2 bg-primary" href="https://adminmart.com/product/matdash-free-vuejs-admin-dashboard/" target="_blank">Download Free</v-btn>
                 <!-- User Profile -->
                 <ProfileDD />
             </div>

@@ -4,7 +4,7 @@
         <div class="d-flex align-center">
             <div>
                 <h6 class="text-h6 text-10 mb-3">Upgrade to pro</h6>
-                <v-btn to="https://adminmart.com/product/matdash-vuejs-admin-dashboard/?ref=5" color="primary" flat>Buy Pro</v-btn>
+                <v-btn href="https://adminmart.com/product/matdash-vuejs-admin-dashboard/?ref=5"  target="_blank" color="primary" flat>Buy Pro</v-btn>
             </div>
             <div class="">
                 <img src="@/assets/images/backgrounds/rupee.png" class="w-100 ms-9 px-2" />
