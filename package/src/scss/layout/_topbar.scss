@@ -1,6 +1,6 @@
 .v-app-bar {
     .v-toolbar__content {
-        padding: 0 24px 0 10px;
+        padding: 0 20px 0 20px;
         display: flex;
         gap:8px;
 
@@ -51,6 +51,23 @@
     .mini-sidebar {
         .v-navigation-drawer.v-navigation-drawer--left {
             width: 260px !important;
+        }
+    }
+}
+
+.feature-topbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.top-header{
+    position: relative !important;
+    z-index: 0 !important;
+}
+.topbar-links{
+    .v-btn{
+        &:hover{
+            background-color: rgba(var(--v-theme-primary));
         }
     }
 }

@@ -1,6 +1,7 @@
 /*This is for the logo*/
 .leftSidebar {
     box-shadow: none !important;
+    top: 75px !important;
 
     .logo {
         padding-left: 7px;
@@ -28,7 +29,7 @@
 
 /*This is for the Vertical sidebar*/
 .scrollnavbar {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 170px);
 
     .userbottom {
         position: fixed;
@@ -96,7 +97,7 @@
         }
 
         .v-list-item__prepend {
-            margin-inline-end: 13px;
+            margin-inline-end: 8px;
         }
 
         .v-list-item__append {
@@ -178,4 +179,17 @@
 .v-navigation-drawer {
     box-shadow: none !important;
     border-right: 0 !important;
+}
+
+
+@media screen and (max-width:1280px) {
+    .leftSidebar {
+        top: 0 !important;
+    }
+}
+
+@media screen and (max-width:991px){
+    .scrollnavbar {
+        height: calc(100vh - 80px);
+    }
 }

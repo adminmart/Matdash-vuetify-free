@@ -10,6 +10,7 @@ import Upgradeversion from './vertical-sidebar/UpgradeBox/index.vue';
 import NotificationDD from './vertical-header/NotificationDD.vue';
 import ProfileDD from './vertical-header/ProfileDD.vue';
 import { Icon } from '@iconify/vue';
+import NavCollapse from './vertical-sidebar/NavCollapse/NavCollapse.vue';
 const sidebarMenu = shallowRef(sidebarItems);
 const sDrawer = ref(true);
 </script>
@@ -31,7 +32,7 @@ const sDrawer = ref(true);
                 <template v-for="(item, i) in sidebarMenu">
                     <!---Item Sub Header -->
                     <NavGroup :item="item" v-if="item.header" :key="item.title" />
-
+                    <NavCollapse class="" :item="item" :level="0" v-else-if="item.children" />
                     <!---Single Item-->
                     <NavItem :item="item" v-else class="leftPadding" />
                     <!---End Single Item-->
@@ -45,10 +46,10 @@ const sDrawer = ref(true);
 
     </v-navigation-drawer>
     <!------Header-------->
-    <v-app-bar elevation="0" height="70">
+    <v-app-bar elevation="0" height="70" class="top-header">
         <div class="d-flex align-center justify-space-between w-100">
             <div>
-                <v-btn class="hidden-lg-and-up ms-md-3 ms-sm-5 ms-3 text-muted" @click="sDrawer = !sDrawer" icon variant="flat"
+                <v-btn class="hidden-lg-and-up ms-md-3  text-muted" @click="sDrawer = !sDrawer" icon variant="flat"
                     size="small">
                     <Icon icon="solar:hamburger-menu-outline" height="20"></Icon>
                   
@@ -58,7 +59,7 @@ const sDrawer = ref(true);
             </div>
             <div>
                 <!-- Upgrade button -->
-                <v-btn class="mr-2 bg-primary" href="https://adminmart.com/product/matdash-free-vuejs-admin-dashboard/" target="_blank">Download Free</v-btn>
+                <v-btn class="mr-2 bg-primary" href="https://adminmart.com/product/matdash-vuejs-admin-dashboard/?ref=56#product-demo-section" target="_blank">Check Pro Template</v-btn>
                 <!-- User Profile -->
                 <ProfileDD />
             </div>

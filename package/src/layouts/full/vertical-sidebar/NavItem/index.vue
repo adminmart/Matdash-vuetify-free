@@ -6,12 +6,12 @@ const props = defineProps({ item: Object, level: Number });
 <template>
     <!---Single Item-->
     <v-list-item
-        :to="item.type === 'external' ? '' : item.to"
-        :href="item.type === 'external' ? item.to : ''"
+      :href="item.external ? item.to : undefined"
+        :to="!item.external ? item.to : undefined"
         rounded
         class="mb-1"
         :disabled="item.disabled"
-        :target="item.type === 'external' ? '_blank' : ''">
+        :target="item.external === true ? '_blank' : undefined">
         <!---If icon-->
         <template v-slot:prepend>
             <Icon :icon="'solar:' + item.icon" height="18" width="18" :level="level" class="dot" :class="'text-' + item.BgColor"/>
@@ -23,13 +23,7 @@ const props = defineProps({ item: Object, level: Number });
         </v-list-item-subtitle>
         <!---If any chip or label-->
         <template v-slot:append v-if="item.chip">
-            <v-chip
-                :color="item.chipColor"
-                :class="'sidebarchip hide-menu bg-' + item.chipBgColor"
-                :size="item.chipIcon ? 'small' : 'small'"
-                :variant="item.chipVariant"
-                :prepend-icon="item.chipIcon"
-            >
+            <v-chip color="secondary" class="font-weight-bold" size="x-small" rounded="sm">
                 {{ item.chip }}
             </v-chip>
         </template>

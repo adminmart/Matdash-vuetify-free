@@ -4,7 +4,7 @@ Matdash VueJs Admin Dashboard
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://adminmart.com/product/matdash-free-vuejs-admin-dashboard/">
-  <img src="https://adminmart.com/wp-content/uploads/2024/05/matdash-vuetifi-vuejs-2.png" />
+  <img src="https://adminmart.com/wp-content/uploads/2025/05/matdash-vuetifi-vuejs-2.png" />
 </a>
 
 
@@ -136,7 +136,7 @@ Matdash VueJs Admin Dashboard
 # Upgrade to Premium version
 
 <a target="_blank" href="https://adminmart.com/product/matdash-vuejs-admin-dashboard/?ref=5">
-  <img src="https://adminmart.com/wp-content/uploads/2024/05/matdash-vuetify-vuejs-admin-dashboard.png" alt="">
+  <img src="https://adminmart.com/wp-content/uploads/2025/05/matdash-vuetify-vuejs-admin-dashboard.png" alt="">
 </a>
 <p>
   Checkout our premium version of Matdash Vue3 + Vuetify Dashboard Template for lots more features and ready to use page templates.<br>
@@ -157,7 +157,7 @@ Matdash VueJs Admin Dashboard
 <tr>
 <td>
   <a href="https://adminmart.com/product/matdash-vuejs-admin-dashboard/?ref=5" width="150px">
-    <img src="https://adminmart.com/wp-content/uploads/2024/05/matdash-vuetify-vuejs-admin-dashboard.png" alt="" style="max-width:150px;">
+    <img src="https://adminmart.com/wp-content/uploads/2025/05/matdash-vuetify-vuejs-admin-dashboard.png" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
@@ -167,7 +167,7 @@ Matdash VueJs Admin Dashboard
 </td>
 <td>
   <a href="https://adminmart.com/product/matdash-bootstrap-5-admin-dashboard-template/?ref=5" rel="nofollow" width="150px">
-    <img src="https://adminmart.com/wp-content/uploads/2024/03/matdash-bootstrap-admin-dashboard.png" alt="" style="max-width:150px;">
+    <img src="https://adminmart.com/wp-content/uploads/2025/03/matdash-bootstrap-admin-dashboard.png" alt="" style="max-width:150px;">
   </a>
 </td>
 </td>
@@ -191,7 +191,7 @@ Matdash VueJs Admin Dashboard
 
 <!-- Licensing of Template -->
 # Licensing
-- <p>Copyright 2024 Wrappixel <a href="https://www.wrappixel.com/">https://wrappixel.com/</a></p>
+- <p>Copyright 2025 Wrappixel <a href="https://www.wrappixel.com/">https://wrappixel.com/</a></p>
 - <p>Licensed under MIT <a href="https://www.wrappixel.com/license/">https://wrappixel.com/license/</a></p>
 
 

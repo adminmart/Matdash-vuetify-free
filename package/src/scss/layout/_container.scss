@@ -36,3 +36,7 @@ html {
 .h-100vh {
     height: 100vh;
 }
+
+.v-main {
+    --v-layout-top: 0 !important;
+}

@@ -2,8 +2,8 @@
 import { ref } from 'vue';
 import { computed } from 'vue';
 import { Icon } from '@iconify/vue';
-const select = ref('Sept 2024');
-const items = ref(['Sept 2024', 'Oct 2024', 'Nov 2024']);
+const select = ref('Sept 2025');
+const items = ref(['Sept 2025', 'Oct 2025', 'Nov 2025']);
 /* Chart */
 const chartOptions = computed(() => {
     return {
@@ -81,7 +81,7 @@ const chartOptions = computed(() => {
 const Chart = {
     series: [
         {
-            name: '2024',
+            name: '2025',
             data: [1.2, 2.7, 1, 3.6, 2.1, 2.7, 2.2, 1.3, 2.5]
         },
         {
