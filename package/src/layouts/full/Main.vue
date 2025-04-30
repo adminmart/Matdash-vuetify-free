@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref, shallowRef } from 'vue';
+import { onMounted, ref, shallowRef, watch } from 'vue';
+import { useDisplay } from "vuetify";
 import sidebarItems from './vertical-sidebar/sidebarItem';
 import NavGroup from './vertical-sidebar/NavGroup/index.vue';
 import NavItem from './vertical-sidebar/NavItem/index.vue';
@@ -12,7 +13,14 @@ import ProfileDD from './vertical-header/ProfileDD.vue';
 import { Icon } from '@iconify/vue';
 import NavCollapse from './vertical-sidebar/NavCollapse/NavCollapse.vue';
 const sidebarMenu = shallowRef(sidebarItems);
+const { mdAndDown } = useDisplay();
 const sDrawer = ref(true);
+onMounted(() => {
+  sDrawer.value = !mdAndDown.value; // hide on mobile, show on desktop
+});
+watch(mdAndDown, (val) => {
+  sDrawer.value = !val;
+});
 </script>
 
 <template>

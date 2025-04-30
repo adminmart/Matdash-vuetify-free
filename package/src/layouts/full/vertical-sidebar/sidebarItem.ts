@@ -280,6 +280,11 @@ const sidebarItem: menu[] = [
     },
     { header: 'Pages' },
     {
+        title: 'Sample Page',
+        icon: 'planet-3-line-duotone',
+        to: '/sample-page'
+    },
+    {
         title: 'Pages',
         icon: 'bill-check-outline',
         to: '/',
@@ -666,6 +671,26 @@ const sidebarItem: menu[] = [
     },
     { header: 'Ui' },
     {
+        title: 'Alert',
+        icon: 'volume-small-broken',
+        to: '/ui/alerts'
+    },
+    {
+        title: 'Button',
+        icon: 'tag-horizontal-outline',
+        to: '/ui/buttons'
+    },
+    {
+        title: 'Cards',
+        icon: 'cardholder-linear',
+        to: '/ui/cards'
+    },
+    {
+        title: 'Tables',
+        icon: 'suspension-outline',
+        to: '/ui/tables'
+    },
+    {
         title: 'Ui Components',
         icon: 'text-underline-bold',
         to: '/ui',
@@ -852,11 +877,7 @@ const sidebarItem: menu[] = [
         chip: 'Pro',
         external: true
     },
-    {
-        title: 'Sample Page',
-        icon: 'planet-3-line-duotone',
-        to: '/sample-page'
-    }
+   
 ];
 
 export default sidebarItem;
