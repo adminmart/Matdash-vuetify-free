@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex gap-2 justify-space-around align-center flex-column flex-md-row fill-height">
+    <div class="d-flex ga-2 justify-space-around align-center flex-column flex-md-row fill-height">
         <v-btn size="x-small" color="primary" flat>
             Extra small
         </v-btn>
